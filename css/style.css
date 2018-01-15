@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    // font: 14px "Microsoft YaHei", serif;
+    height: 100%;
+    background: #000;
+}
+
+.wp {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/gift-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.none {
+    display: none;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1236px;
+    height: 696px;
+    background-image: url(../img/gift-border.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.thing {
+    position: relative;
+    width: 640px;
+    height: 460px;
+    margin: 0 auto;
+}
+
+.thing {
+    position: absolute;
+    top: 74px;
+    left: 24px;
+    width: 592px;
+    height: 560px;
+}
+
+.item {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.thing-title {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 26px;
+    color: #ffee79;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.list {
+    position: absolute;
+    top: 74px;
+    right: 24px;
+    width: 592px;
+    height: 560px;
+}
+
+.users {
+    position: absolute;
+    width: 592px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.luckman {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.luckman img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 4px solid #71beff;
+}
+
+// .luckman p{ font-size: 16px; text-align: center; color: #fff; margin-top: 5px;}
+.gift__user-loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 82px;
+    height: 206px;
+}
+
+.name {
+    font-size: 24px;
+    color: #fff;
+}

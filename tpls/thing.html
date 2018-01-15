@@ -1,0 +1,15 @@
+<div class="thing" data-id="<%-id%>">
+    <div style="background-image: url(thing/<%-img%>)" class="item"></div>
+    <div class="thing-title"><%-name%></div>
+</div>
+<div class="list q<%-num%>">
+   <div class="users">
+   	 <%for(var i = 0; i < num; i++) {%>
+	    <div class="luckman">
+	        <img src="img/luck.png" class="avatar" style="display: none" />
+	        <p class="name"></p>
+	    </div>
+    <%}%>
+   </div>
+   <img src="img/animate/loading.gif" class="gift__user-loading" style="display: none">
+</div>
