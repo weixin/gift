@@ -1,19 +1,25 @@
 # ECD 2013 抽奖源代码
 
 -----
+## 项目启动
+
+全局安装 Node 模块 anywhere, 然后在项目根目录跑 anywhere 命令
+
 ## 奖池数据
 
-在 data 目录下，复制 thing.default.js, user.default.js 重命名为 thing.js, user.js，按格式添加数据。
+js/kalok.js: 抽奖程序主代码
 
-奖品的 ID 一定要从 1 开始自增
+data/thing.js: 奖品信息（奖品的 ID 一定要从 1 开始自增）
 
-奖品图片放在 thing 目录下，PNG 格式。
+data/user.js: 参与抽奖人员信息
+
+thing/xxx.png: 奖品图片
 
 ## 动画效果
 
-制作 10 张 gif 动放，置于 img/animate/ 目录下，命名为 1 开始自增
+animate/loading.gif: 抽奖中的 loading 动画
 
 ## 头像
 
-头像放在 rtx 目录下，文件命名为 RTX 名，PNG 格式。
+rtx/xxx.png: 参与抽奖人员头像(头像名称需要和 user.js 中的 rtx 字段一一对应)
 
